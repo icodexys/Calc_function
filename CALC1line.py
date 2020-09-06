@@ -9,7 +9,7 @@ def calc(expx):
                 express+=[group_num]
                 group_num=""
             express+=[i]   
-        express+=[group_num]
+    express+=[group_num]
     #if list express has only a number or a negative number then will return same value, otherwise will return an error messages
     if len(express)<=2: 
         try:
