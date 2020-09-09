@@ -2,7 +2,7 @@ def calc(expx):
     group_num=""; express=[];oper="";acomulador=0.0;
     #Here will convert from string to List type spliting groups number by operator +-*/
     for i in expx:
-        if i.isdigit() or i in ".":
+        if i in ".0123456789":
             group_num+=i
         elif i in "+-*/":
             if len(group_num)>0:
@@ -18,16 +18,15 @@ def calc(expx):
             return "Error operation"
     #here is where will start to calculate every number by its specified operator
     if express[0]=="-" and len(express)>=4:express=["0"]+express
+    acomulador=float(express[0])
     for x in express:
-        if x.isdigit():
-            if oper=="":acomulador+=float(x)
-            if oper=="+":acomulador+=float(x)
-            if oper=="-":acomulador-=float(x)
-            if oper=="*":acomulador*=float(x)
-            if oper=="/":acomulador/=float(x)
+        if  "." in x or x.isdigit():
+            if oper=="+":acomulador=acomulador+float(x)
+            if oper=="-":acomulador=acomulador-float(x)
+            if oper=="*":acomulador=acomulador*float(x)
+            if oper=="/":acomulador=acomulador/float(x)
         if x in "+-/*":oper=x
     return acomulador
-
 resultado=0.0
 #by iCOdexys
 print("Calculator in one line with /*-+")
