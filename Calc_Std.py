@@ -1,4 +1,4 @@
-def calc(expx):
+def calc_std(expx):
     group_num=""; express=[];oper="";acomulador=0.0;
     #Here will convert from string to List type spliting groups number by operator +-*/
     for i in expx:
@@ -31,7 +31,7 @@ resultado=0.0
 #by iCOdexys
 print("Calculator in one line with /*-+")
 while  resultado!=0.1:
-    resultado=calc(input("Calc: "))
+    resultado=calc_std(input("Calc: "))
     print(resultado)
 
  
