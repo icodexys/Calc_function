@@ -1,9 +1,11 @@
+import string
 def mid(s,pos,amout):
     return s[pos:pos+amout]
 def calc_ct(expx):
     group_num=""; express=[];oper="";acomulador=0.0;
     #Here will convert from string to List type spliting groups number and operators +-*/
     for i in expx:
+        if i in string.ascii_letters+"=$#@!&~_)(^[]{}|?><":return "Error operation"  
         if i in ".0123456789":
             group_num+=i
         elif i in "+-*/":
