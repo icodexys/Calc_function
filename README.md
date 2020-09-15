@@ -6,7 +6,7 @@ calc_std() does the calculation in standard mode and calc_ct() in scientific mod
 will give you a different results because it follows the arithmetic rules. 
 
 This is for beginners to learn some path about calculation in one line. 
-It will perfom a huge operation using - + * and / in one line, the input support  
+It will perfom a huge operation using - + * / and ^(Exponential notation) in one line, the input support  
 Integers and floats....
 
 
