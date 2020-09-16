@@ -10,10 +10,10 @@ It will perfom a huge operation using - + * / and ^(Exponential notation) in one
 Integers and floats....
 
 operators supported:
-+ -Addition
-* -Multiplacation
-- -subtraction
-/ -Division
-^ -Exponential notation(Still in Development)
++ --Addition
+* --Multiplacation
+- --subtraction
+/ --Division
+^ --Exponential notation(Still in Development)
 
 
