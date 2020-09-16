@@ -28,6 +28,7 @@ def calc_ct(expx):
     if express[0]=="-" and len(express)>=4:express=["0"]+express
     
     #if exist Exponential notation ^ then execute the this operation......
+    #NOTE: this part still in development
     while "^" in express:
         for y in range(0,len(express),2):
             try:
