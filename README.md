@@ -1,4 +1,4 @@
-# calc1line
+# Calc_Function
 functions calc_std() and calc_ct()   calculate operations in one sigle line
  
 Is a function that will perform same task as eval() does but limited, 
