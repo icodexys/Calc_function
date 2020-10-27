@@ -2,7 +2,7 @@
 functions calc_std() and calc_ct()   calculate operations in one sigle line
  
 Is a function that will perform same task as eval() does but limited, 
-calc_std() does the calculation in standard mode and calc_ct() in scientific mode wich 
+calc_std() does the calculation in standard mode and calc_ct() in scientific mode which 
 will give you a different results because it follows the arithmetic rules. 
 
 This is for beginners to learn some path about calculation in one line. 
@@ -15,5 +15,7 @@ operators supported:
 - --subtraction
 / --Division
 ^ --Exponential notation(Still in Development)
+
+---
 
 
